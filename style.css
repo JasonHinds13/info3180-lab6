@@ -1,0 +1,13 @@
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 2px;
+    height: 25px;
+    width: 100px;
+    font-weight: bold;
+}
+
+li{
+    background: lightblue;
+    padding: 5px;
+}
