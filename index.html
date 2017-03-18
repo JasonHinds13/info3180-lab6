@@ -9,7 +9,11 @@
 
     	<div ng-app="myShoppingList" ng-controller="myCtrl">
     	    <ul>
-    	        <li ng-repeat="item in products"> {{ item }}</li>
+    	        <li ng-repeat="item in products"> 
+    	            {{ item }}
+    	            <span ng-click="removeItem($index)">&times;</span>
+    	        </li>
+
     	    </ul>
 
     	    <input ng-model="addMe">
